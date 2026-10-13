@@ -3,7 +3,7 @@
 ADDON = false;
 
 [
-    QGVAR(timePerRound),            // setting variable: "cvo_ammo_logistics_core_timePerRound"
+    QPVAR(timePerRound),            // setting variable: "cvo_redmag_timePerRound"
     "SLIDER",
     CSTRING(timePerRound),
     CSTRING(settingsCategory),

@@ -20,7 +20,7 @@
  * "useBelt"               <BOOL> - does magazine use belts
  *
  * Example:
- * ["30Rnd_65x39_caseless_mag"] call cvo_ammo_logistics_core_fnc_getMagazineData
+ * ["30Rnd_65x39_caseless_mag"] call cvo_redmag_core_fnc_getMagazineData
  *
  * Public: No
  */

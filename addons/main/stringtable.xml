@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="CVO Ammo Logistics">
     <Package name="Common">
-        <Key ID="STR_cvo_ammo_logistics_main_url">
-            <English>https://github.com/SkippieDippie/CVO-Ammo-Logistics</English>
-            <Russian>https://github.com/SkippieDippie/CVO-Ammo-Logistics</Russian>
-            <German>https://github.com/SkippieDippie/CVO-Ammo-Logistics</German>
-        </Key>
-        <Key ID="STR_cvo_ammo_logistics_main_cvo">
+        <Key ID="STR_cvo_redmag_main_cvo">
             <English>24th Chorni Voron</English>
             <Russian>24th Chorni Voron</Russian>
             <German>24th Chorni Voron</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_main_url">
+            <English>https://github.com/SkippieDippie/CVO-Ammo-Logistics</English>
+            <Russian>https://github.com/SkippieDippie/CVO-Ammo-Logistics</Russian>
+            <German>https://github.com/SkippieDippie/CVO-Ammo-Logistics</German>
         </Key>
     </Package>
 </Project>
