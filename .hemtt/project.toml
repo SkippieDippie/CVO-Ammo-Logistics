@@ -9,8 +9,7 @@ url = "https://github.com/SkippieDippie/CVO-Ammo-Logistics"
 [files]
 include = [
     "LICENSE",
-    "logo_ca.paa",
-    "logo_co.paa",
+    "img/*",
     "*.bikey"
 ]
 exclude  = [
@@ -18,6 +17,8 @@ exclude  = [
     "*.md",
     "/.vscode/*",
     "/sources/*",
+    "/tools/*",
+    ".gitignore",
 ]
 
 [version]

@@ -9,7 +9,7 @@ class CfgPatches {
         url = CSTRING(url);
 
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {QGVARMAIN(ammo), QGVARMAIN(core)};
+        requiredAddons[] = {QPVAR(ammo), QPVAR(core)};
         
         units[] = {};
         weapons[] = {};

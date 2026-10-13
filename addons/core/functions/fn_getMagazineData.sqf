@@ -46,7 +46,7 @@ if (isNil "_magData") then {
 
    private _isRepackable  = _category == "Magazine" && {_type in ["Bullet", "ShotgunShell"]};
 
-   private _ref = getText (configFile >> "CfgMagazines" >> _magClass >> QGVARMAIN(magazineData));
+   private _ref = getText (configFile >> "CfgMagazines" >> _magClass >> QPVAR(magazineData));
    private _ammoConfig = configNull;
 
    if (_ref != "") then {

@@ -64,26 +64,26 @@ private _unloadAction = [
 
 
 // Add event handlers and handle player unit being changed mid game (by respawning or using selectPlayer command)
-GVARMAIN(ReloadedEHID) = -1;
-GVARMAIN(onMagazineUnloadedEHID) = -1;
-GVARMAIN(player) = objNull;
+PVAR(ReloadedEHID) = -1;
+PVAR(onMagazineUnloadedEHID) = -1;
+PVAR(player) = objNull;
 
 [
     {!isNull player},
     {
         ["unit", {
-            if (!isNull GVARMAIN(player)) then {
-                if (GVARMAIN(ReloadedEHID) != -1) then {
-                    GVARMAIN(player) removeEventHandler ["Reloaded", GVARMAIN(ReloadedEHID)];
+            if (!isNull PVAR(player)) then {
+                if (PVAR(ReloadedEHID) != -1) then {
+                    PVAR(player) removeEventHandler ["Reloaded", PVAR(ReloadedEHID)];
                 };
-                if (GVARMAIN(onMagazineUnloadedEHID) != -1) then {
-                    GVARMAIN(player) removeEventHandler ["MagazineUnloaded", GVARMAIN(onMagazineUnloadedEHID)];
+                if (PVAR(onMagazineUnloadedEHID) != -1) then {
+                    PVAR(player) removeEventHandler ["MagazineUnloaded", PVAR(onMagazineUnloadedEHID)];
                 };
             };
 
-            GVARMAIN(player) = player;
-            GVARMAIN(ReloadedEHID) = player addEventHandler ["Reloaded", FUNC(onReloaded)];
-            GVARMAIN(onMagazineUnloadedEHID) = player addEventHandler ["MagazineUnloaded", FUNC(onMagazineUnloaded)];
+            PVAR(player) = player;
+            PVAR(ReloadedEHID) = player addEventHandler ["Reloaded", FUNC(onReloaded)];
+            PVAR(onMagazineUnloadedEHID) = player addEventHandler ["MagazineUnloaded", FUNC(onMagazineUnloaded)];
         }, true] call CBA_fnc_addPlayerEventHandler;
     }
 ] call CBA_fnc_waitUntilAndExecute;

@@ -8,7 +8,7 @@ class CfgPatches {
         url = ECSTRING(main,url);
 
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {QGVARMAIN(core), "ace_common", "A3_Weapons_F"};
+        requiredAddons[] = {QPVAR(core), "ace_common", "A3_Weapons_F"};
 
         units[] = {};
         weapons[] = {QGVAR(556x45), QGVAR(556x45_Tracer), QGVAR(65x39), QGVAR(65x39_Tracer)};
