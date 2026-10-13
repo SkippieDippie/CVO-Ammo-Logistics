@@ -13,7 +13,7 @@
  * A magazine was removed <BOOL>
  *
  * Example:
- * [player, "30Rnd_65x39_caseless_mag"] call cvo_ammo_logistics_core_fnc_removeVanillaEmptyMagazine
+ * [player, "30Rnd_65x39_caseless_mag"] call cvo_redmag_core_fnc_removeVanillaEmptyMagazine
  *
  * Public: No
  */

@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="CVO Ammo Logistics">
     <Package name="Ammo">
-        <Key ID="STR_cvo_ammo_logistics_ammo_556x45">
+        <Key ID="STR_cvo_redmag_ammo_556x45">
             <English>5.56x45mm Round</English>
             <Russian>5.56x45мм патрон</Russian>
             <German>5,56x45mm Patrone</German>
         </Key>
-        <Key ID="STR_cvo_ammo_logistics_ammo_556x45_desc">
+        <Key ID="STR_cvo_redmag_ammo_556x45_desc">
             <English>A loose 5.56x45mm round. Can be used to repack magazines.</English>
             <Russian>5.56x45мм патрон. Используется для снаряжения магазинов.</Russian>
             <German>Eine lose 5,56x45mm Patrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
         </Key>
-        <Key ID="STR_cvo_ammo_logistics_ammo_556x45_tracer">
+        <Key ID="STR_cvo_redmag_ammo_556x45_tracer">
             <English>5.56x45mm Tracer Round</English>
             <Russian>5.56x45мм патрон трассирующий</Russian>
             <German>5,56x45mm Leuchtspurpatrone</German>
         </Key>
-        <Key ID="STR_cvo_ammo_logistics_ammo_556x45_tracer_desc">
+        <Key ID="STR_cvo_redmag_ammo_556x45_tracer_desc">
             <English>A loose 5.56x45mm tracer round. Can be used to repack magazines.</English>
             <Russian>5.56x45мм патрон трассирующий. Используется для снаряжения магазинов.</Russian>
             <German>Eine lose 5,56x45mm Leuchtspurpatrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
         </Key>
-        <Key ID="STR_cvo_ammo_logistics_ammo_65x39">
+        <Key ID="STR_cvo_redmag_ammo_65x39">
             <English>6.5x39mm Round</English>
             <Russian>6.5x39мм патрон</Russian>
             <German>6,5x39mm Patrone</German>
         </Key>
-        <Key ID="STR_cvo_ammo_logistics_ammo_65x39_desc">
+        <Key ID="STR_cvo_redmag_ammo_65x39_desc">
             <English>A loose 6.5x39mm round. Can be used to repack magazines.</English>
             <Russian>6.5x39мм патрон. Используется для снаряжения магазинов.</Russian>
             <German>Eine lose 6,5x39mm Patrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
         </Key>
-        <Key ID="STR_cvo_ammo_logistics_ammo_65x39_tracer">
+        <Key ID="STR_cvo_redmag_ammo_65x39_tracer">
             <English>6.5x39mm Tracer Round</English>
             <Russian>6.5x39мм патрон трассирующий</Russian>
             <German>6,5x39mm Leuchtspurpatrone</German>
         </Key>
-        <Key ID="STR_cvo_ammo_logistics_ammo_65x39_tracer_desc">
+        <Key ID="STR_cvo_redmag_ammo_65x39_tracer_desc">
             <English>A loose 6.5x39mm tracer round. Can be used to repack magazines.</English>
             <Russian>6.5x39мм патрон трассирующий. Используется для снаряжения магазинов.</Russian>
             <German>Eine lose 6,5x39mm Leuchtspurpatrone. Kann zum Umpacken von Magazinen verwendet werden.</German>

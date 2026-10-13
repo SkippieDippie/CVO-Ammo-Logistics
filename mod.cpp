@@ -1,4 +1,4 @@
-name                = "24th CVO Ammo Logistics";
+name                = "24th CVO Ammo Logistics {version}";
 author              = "24th Chorni Voron";
 authors[]           = {"Skippie [CVO]"};
 

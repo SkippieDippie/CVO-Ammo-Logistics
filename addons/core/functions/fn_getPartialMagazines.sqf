@@ -12,7 +12,7 @@
  * Each element: [class <STRING>, ammoCount <NUMBER>, maxCount <NUMBER>]
  *
  * Example:
- * [] call cvo_ammo_logistics_core_fnc_getPartialMagazines
+ * [] call cvo_redmag_core_fnc_getPartialMagazines
  *
  * Public: No
  */

@@ -13,7 +13,7 @@
  * Each element: [class <STRING>, ammoCount <NUMBER>]
  *
  * Example:
- * [player] call cvo_ammo_logistics_core_fnc_getInventoryMagazines
+ * [player] call cvo_redmag_core_fnc_getInventoryMagazines
  *
  * Public: No
  */

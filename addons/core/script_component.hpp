@@ -3,5 +3,5 @@
 
 //#define DISABLE_COMPILE_CACHE
 
-#include "\z\cvo_ammo_logistics\addons\main\script_mod.hpp"
-#include "\z\cvo_ammo_logistics\addons\main\script_macros.hpp"
+#include "\z\cvo_redmag\addons\main\script_mod.hpp"
+#include "\z\cvo_redmag\addons\main\script_macros.hpp"

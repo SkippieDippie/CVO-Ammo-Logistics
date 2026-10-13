@@ -50,7 +50,7 @@ class CVO_Magazines {
     class GVARMAG(100Rnd_STANAG_65x39_Black): GVARMAG(100Rnd_STANAG_65x39) {
         convertMag[] = {
             "100Rnd_65x39_caseless_black_mag",
-            "100Rnd_65x39_caseless_black_mag_tracer",
+            "100Rnd_65x39_caseless_black_mag_tracer"
         };
     };
 

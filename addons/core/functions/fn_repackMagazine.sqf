@@ -17,8 +17,8 @@
  * Process started <BOOL>
  *
  * Example:
- * ["30Rnd_65x39_caseless_mag", 12] call cvo_ammo_logistics_core_fnc_repackMagazine
- * ["30Rnd_65x39_caseless_mag", 12, true] call cvo_ammo_logistics_core_fnc_repackMagazine
+ * ["30Rnd_65x39_caseless_mag", 12] call cvo_redmag_core_fnc_repackMagazine
+ * ["30Rnd_65x39_caseless_mag", 12, true] call cvo_redmag_core_fnc_repackMagazine
  *
  * Public: No
  */
@@ -32,7 +32,7 @@ params [
 
 if (isNull _unit) exitWith {false};
 
-private _timePerRound = GVAR(timePerRound);
+private _timePerRound = PVAR(timePerRound);
 private _magData = [_magClass] call FUNC(getMagazineData);
 
 private _maxCount = _magData get "count";

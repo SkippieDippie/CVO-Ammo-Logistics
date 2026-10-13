@@ -30,7 +30,7 @@ if (!hasInterface) exitWith {};
 private _repackAction = [
     QGVAR(repackMagazines),
     localize LSTRING(repackMagazines),
-    QPATHTOF(data\cvo_icon_repack_ca.paa),
+    QPATHTOF(data\icon_repack_ca.paa),
     {},
     {true}
 ] call ace_interact_menu_fnc_createAction;
@@ -42,7 +42,7 @@ private _repackAction = [
 private _refillAction = [
     QGVAR(refill),
     localize LSTRING(refill),
-    QPATHTOF(data\cvo_icon_refill_ca.paa),
+    QPATHTOF(data\icon_refill_ca.paa),
     {},
     {true},
     FUNC(getRepackActions),
@@ -52,7 +52,7 @@ private _refillAction = [
 private _unloadAction = [
     QGVAR(unload),
     localize LSTRING(unload),
-    QPATHTOF(data\cvo_icon_unload_ca.paa),
+    QPATHTOF(data\icon_unload_ca.paa),
     {},
     {true},
     FUNC(getRepackActions),
