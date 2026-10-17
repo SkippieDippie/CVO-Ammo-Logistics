@@ -8,7 +8,7 @@
 #endif
 
 #ifdef DEBUG_SETTINGS_MAIN
-	#define DEBUG_SETTINGS DEBUG_SETTINGS_MAIN
+    #define DEBUG_SETTINGS DEBUG_SETTINGS_MAIN
 #endif
 
 #include "script_macros.hpp"
