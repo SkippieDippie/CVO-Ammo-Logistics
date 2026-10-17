@@ -1,10 +1,9 @@
 name: Release Drafter
 
 on:
-# push:
-#   branches:
-#   - main
-#   - release-drafter  # for testing edits to this configuration
+  push:
+    branches:
+    - main
 
 permissions:
   contents: read
@@ -12,7 +11,6 @@ permissions:
 jobs:
   draft:
     permissions:
-      # write permission is required to create a github release
       contents: write
       pull-requests: write
     runs-on: ubuntu-latest

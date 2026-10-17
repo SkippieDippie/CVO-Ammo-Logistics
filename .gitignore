@@ -2,7 +2,6 @@
 **/.vscode/
 **/keys/
 **/releases/
-**/include/
 *.pbo
 *.
 .hemttprivatekey

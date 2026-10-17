@@ -1,8 +1,8 @@
 name: Require Any Label
 
 on:
-# pull_request:
-#   types: [opened, labeled, unlabeled, synchronize, reopened]
+  pull_request:
+    types: [opened, labeled, unlabeled, synchronize, reopened]
 
 jobs:
   check-label:
@@ -14,7 +14,7 @@ jobs:
           script: |
             const labels = context.payload.pull_request.labels;
             if (labels.length === 0) {
-              core.setFailed("PR muss mindestens ein Label haben.");
+              core.setFailed("PR must have at least one label.");
             } else {
-              console.log(`Labels vorhanden: ${labels.map(l => l.name).join(", ")}`);
+              console.log(`Labels present: ${labels.map(l => l.name).join(", ")}`);
             }

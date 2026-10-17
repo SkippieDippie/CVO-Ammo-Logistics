@@ -1,11 +1,11 @@
 name: Stringtable.xml
 
 on:
-# workflow_dispatch:
-# push:
-#   branches:
-#     - main
-#     - master
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
 
 jobs:
   update-translations:
