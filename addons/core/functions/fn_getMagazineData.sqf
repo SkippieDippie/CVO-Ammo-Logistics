@@ -67,7 +67,7 @@ if (isNil "_magData") then {
       ["displayName", getText (configFile >> "CfgMagazines" >> _magClass >> "displayName")],
       ["isRepackable", _isRepackable],
       ["picture",getText (configFile >> "CfgMagazines" >> _magClass >> "picture")],
-      ["useBelt", ((getNumber (configFile >> "CfgMagazines" >> _magClass >> "useBelt")) == 1)]
+      ["useBelt", ((getNumber (_ammoConfig >> "useBelt")) == 1)]
    ];
 
    GVAR(magazineCache) set [_magClass, _magData];
