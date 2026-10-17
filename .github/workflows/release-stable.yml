@@ -15,13 +15,13 @@
 name: Release Stable
 
 env:
-#  FOLDER: '@cigs'
-#  WORKSHOPID: '3375788189'
-#  WORKSHOPNAME: 'Immersive Cigs - Rewrite'
+  FOLDER: '@CVO-Redmag'
+  WORKSHOPID: '3821740168'
+  WORKSHOPNAME: 'CVO Ammo Logistics'
 
 on:
-#  release:
-#    types: [released]
+ release:
+   types: [released]
 
 permissions:
   contents: write
