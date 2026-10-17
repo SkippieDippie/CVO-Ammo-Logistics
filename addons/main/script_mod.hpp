@@ -1,4 +1,4 @@
-#define MAINPREFIX z
+#define MAINPREFIX cvo
 #define PREFIX cvo_redmag
 #define PREFIX_BEAUTIFIED CVO Ammo Logistics
 

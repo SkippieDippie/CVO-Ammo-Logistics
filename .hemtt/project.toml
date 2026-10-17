@@ -1,6 +1,6 @@
 name = "24th CVO Ammo Logistics"
 prefix = "cvo_redmag"
-mainprefix = "z"
+mainprefix = "cvo"
 
 [properties]
 author = "24th Chorni Voron"
