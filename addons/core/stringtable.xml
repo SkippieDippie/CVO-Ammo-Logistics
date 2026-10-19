@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="CVO Ammo Logistics">
     <Package name="Actions">
+        <Key ID="STR_cvo_redmag_core_convert">
+            <English>Convert</English>
+            <Russian>Преобразовать</Russian>
+        </Key>
         <Key ID="STR_cvo_redmag_core_refill">
             <English>Refill</English>
             <Russian>Снарядить</Russian>
