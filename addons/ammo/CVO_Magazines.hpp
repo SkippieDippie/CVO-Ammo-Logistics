@@ -3,12 +3,12 @@ class CVO_Magazines {
 
     class GVARMAG(STANAG_556x45): GVARMAG(Default) {
         item = QGVAR(556x45);
-        itemTracer = QGVAR(556x45_Tracer);
+        itemTracer = QGVAR(556x45_tracer);
     };
 
     class GVARMAG(30Rnd_STANAG_65x39): GVARMAG(Default) {
         item = QGVAR(65x39);
-        itemTracer = QGVAR(65x39_Tracer);
+        itemTracer = QGVAR(65x39_tracer);
         convertMag[] = {
             "30Rnd_65x39_caseless_mag",
             "30Rnd_65x39_caseless_mag_Tracer",
@@ -39,7 +39,7 @@ class CVO_Magazines {
 
     class GVARMAG(100Rnd_STANAG_65x39): GVARMAG(30Rnd_STANAG_65x39) {
         item = QGVAR(65x39);
-        itemTracer = QGVAR(65x39_Tracer);
+        itemTracer = QGVAR(65x39_tracer);
         convertMag[] = {
             "100Rnd_65x39_caseless_mag",
             "100Rnd_65x39_caseless_mag_Tracer",

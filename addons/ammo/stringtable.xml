@@ -1,45 +1,425 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="CVO Ammo Logistics">
     <Package name="Ammo">
+        <Key ID="STR_cvo_redmag_ammo_basic">
+            <English>Loose Round</English>
+            <Russian>Патрон</Russian>
+            <German>Lose Patrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_basic_desc">
+            <English>A loose round. Can be used to repack magazines.</English>
+            <Russian>Отдельный патрон. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose Patrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_basic_tracer">
+            <English>Loose Tracer Round</English>
+            <Russian>Патрон трассирующий</Russian>
+            <German>Lose Leuchtspurpatrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_basic_tracer_desc">
+            <English>A loose tracer round. Can be used to repack magazines.</English>
+            <Russian>Отдельный трассирующий патрон. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose Leuchtspurpatrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_300WM">
+            <English>.300 Winchester Magnum Round</English>
+            <Russian>.300 Winchester Magnum патрон</Russian>
+            <German>.300 Winchester Magnum Patrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_300WM_desc">
+            <English>A loose .300 Winchester Magnum round. Can be used to repack magazines.</English>
+            <Russian>Патрон калибра .300 Winchester Magnum. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose .300 Winchester Magnum Patrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_300WM_tracer">
+            <English>.300 Winchester Magnum Tracer Round</English>
+            <Russian>.300 Winchester Magnum патрон трассирующий</Russian>
+            <German>.300 Winchester Magnum Leuchtspurpatrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_300WM_tracer_desc">
+            <English>A loose .300 Winchester Magnum tracer round. Can be used to repack magazines.</English>
+            <Russian>Трассирующий патрон калибра .300 Winchester Magnum. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose .300 Winchester Magnum Leuchtspurpatrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_338LM">
+            <English>.338 Lapua Magnum Round</English>
+            <Russian>.338 Lapua Magnum патрон</Russian>
+            <German>.338 Lapua Magnum Patrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_338LM_desc">
+            <English>A loose .338 Lapua Magnum round. Can be used to repack magazines.</English>
+            <Russian>Патрон калибра .338 Lapua Magnum. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose .338 Lapua Magnum Patrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_338LM_tracer">
+            <English>.338 Lapua Magnum Tracer Round</English>
+            <Russian>.338 Lapua Magnum патрон трассирующий</Russian>
+            <German>.338 Lapua Magnum Leuchtspurpatrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_338LM_tracer_desc">
+            <English>A loose .338 Lapua Magnum tracer round. Can be used to repack magazines.</English>
+            <Russian>Трассирующий патрон калибра .338 Lapua Magnum. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose .338 Lapua Magnum Leuchtspurpatrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_338NM">
+            <English>.338 Norma Magnum Round</English>
+            <Russian>.338 Norma Magnum патрон</Russian>
+            <German>.338 Norma Magnum Patrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_338NM_desc">
+            <English>A loose .338 Norma Magnum round. Can be used to repack magazines.</English>
+            <Russian>Патрон калибра .338 Norma Magnum. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose .338 Norma Magnum Patrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_338NM_tracer">
+            <English>.338 Norma Magnum Tracer Round</English>
+            <Russian>.338 Norma Magnum патрон трассирующий</Russian>
+            <German>.338 Norma Magnum Leuchtspurpatrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_338NM_tracer_desc">
+            <English>A loose .338 Norma Magnum tracer round. Can be used to repack magazines.</English>
+            <Russian>Трассирующий патрон калибра .338 Norma Magnum. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose .338 Norma Magnum Leuchtspurpatrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_408">
+            <English>.408 CT Round</English>
+            <Russian>.408 CT патрон</Russian>
+            <German>.408 CT Patrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_408_desc">
+            <English>A loose .408 Cheyenne Tactical round. Can be used to repack magazines.</English>
+            <Russian>Патрон калибра .408 Cheyenne Tactical. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose .408 Cheyenne Tactical Patrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_408_tracer">
+            <English>.408 Cheyenne Tactical Tracer Round</English>
+            <Russian>.408 Cheyenne Tactical патрон трассирующий</Russian>
+            <German>.408 CT Leuchtspurpatrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_408_tracer_desc">
+            <English>A loose .408 Cheyenne Tactical tracer round. Can be used to repack magazines.</English>
+            <Russian>Трассирующий патрон калибра .408 Cheyenne Tactical. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose .408 Cheyenne Tactical Leuchtspurpatrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_45ACP">
+            <English>.45 ACP Round</English>
+            <Russian>.45 ACP патрон</Russian>
+            <German>.45 ACP Patrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_45ACP_desc">
+            <English>A loose .45 ACP round. Can be used to repack magazines.</English>
+            <Russian>Патрон калибра .45 ACP. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose .45 ACP Patrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_45ACP_tracer">
+            <English>.45 ACP Tracer Round</English>
+            <Russian>.45 ACP патрон трассирующий</Russian>
+            <German>.45 ACP Leuchtspurpatrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_45ACP_tracer_desc">
+            <English>A loose .45 ACP tracer round. Can be used to repack magazines.</English>
+            <Russian>Трассирующий патрон калибра .45 ACP. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose .45 ACP Leuchtspurpatrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_50BW">
+            <English>.50 Beowulf Round</English>
+            <Russian>.50 Beowulf патрон</Russian>
+            <German>.50 Beowulf Patrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_50BW_desc">
+            <English>A loose .50 Beowulf round. Can be used to repack magazines.</English>
+            <Russian>Патрон калибра .50 Beowulf. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose .50 Beowulf Patrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_50BW_tracer">
+            <English>.50 Beowulf Tracer Round</English>
+            <Russian>.50 Beowulf патрон трассирующий</Russian>
+            <German>.50 Beowulf Leuchtspurpatrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_50BW_tracer_desc">
+            <English>A loose .50 Beowulf tracer round. Can be used to repack magazines.</English>
+            <Russian>Трассирующий патрон калибра .50 Beowulf. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose .50 Beowulf Leuchtspurpatrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_545x39">
+            <English>5.45x39mm Round</English>
+            <Russian>5,45x39мм патрон</Russian>
+            <German>5,45x39mm Patrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_545x39_desc">
+            <English>A loose 5.45x39mm round. Can be used to repack magazines.</English>
+            <Russian>5,45x39мм патрон. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose 5,45x39mm Patrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_545x39_tracer">
+            <English>5.45x39mm Tracer Round</English>
+            <Russian>5,45x39мм патрон трассирующий</Russian>
+            <German>5,45x39mm Leuchtspurpatrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_545x39_tracer_desc">
+            <English>A loose 5.45x39mm tracer round. Can be used to repack magazines.</English>
+            <Russian>5,45x39мм патрон трассирующий. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose 5,45x39mm Leuchtspurpatrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
         <Key ID="STR_cvo_redmag_ammo_556x45">
             <English>5.56x45mm Round</English>
-            <Russian>5.56x45мм патрон</Russian>
+            <Russian>5,56x45мм патрон</Russian>
             <German>5,56x45mm Patrone</German>
         </Key>
         <Key ID="STR_cvo_redmag_ammo_556x45_desc">
             <English>A loose 5.56x45mm round. Can be used to repack magazines.</English>
-            <Russian>5.56x45мм патрон. Используется для снаряжения магазинов.</Russian>
+            <Russian>5,56x45мм патрон. Используется для снаряжения магазинов.</Russian>
             <German>Eine lose 5,56x45mm Patrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
         </Key>
         <Key ID="STR_cvo_redmag_ammo_556x45_tracer">
             <English>5.56x45mm Tracer Round</English>
-            <Russian>5.56x45мм патрон трассирующий</Russian>
+            <Russian>5,56x45мм патрон трассирующий</Russian>
             <German>5,56x45mm Leuchtspurpatrone</German>
         </Key>
         <Key ID="STR_cvo_redmag_ammo_556x45_tracer_desc">
             <English>A loose 5.56x45mm tracer round. Can be used to repack magazines.</English>
-            <Russian>5.56x45мм патрон трассирующий. Используется для снаряжения магазинов.</Russian>
+            <Russian>5,56x45мм патрон трассирующий. Используется для снаряжения магазинов.</Russian>
             <German>Eine lose 5,56x45mm Leuchtspurpatrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_57x28">
+            <English>5.7x28mm Round</English>
+            <Russian>5,7x28мм патрон</Russian>
+            <German>5,7x28mm Patrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_57x28_desc">
+            <English>A loose 5.7x28mm round. Can be used to repack magazines.</English>
+            <Russian>5,7x28мм патрон. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose 5,7x28mm Patrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_57x28_tracer">
+            <English>5.7x28mm Tracer Round</English>
+            <Russian>5,7x28мм патрон трассирующий</Russian>
+            <German>5,7x28mm Leuchtspurpatrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_57x28_tracer_desc">
+            <English>A loose 5.7x28mm tracer round. Can be used to repack magazines.</English>
+            <Russian>5,7x28мм патрон трассирующий. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose 5,7x28mm Leuchtspurpatrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_58x42">
+            <English>5.8x42mm Round</English>
+            <Russian>5,8x42мм патрон</Russian>
+            <German>5,8x42mm Patrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_58x42_desc">
+            <English>A loose 5.8x42mm round. Can be used to repack magazines.</English>
+            <Russian>5,8x42мм патрон. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose 5,8x42mm Patrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_58x42_tracer">
+            <English>5.8x42mm Tracer Round</English>
+            <Russian>5,8x42мм патрон трассирующий</Russian>
+            <German>5,8x42mm Leuchtspurpatrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_58x42_tracer_desc">
+            <English>A loose 5.8x42mm tracer round. Can be used to repack magazines.</English>
+            <Russian>5,8x42мм патрон трассирующий. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose 5,8x42mm Leuchtspurpatrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
         </Key>
         <Key ID="STR_cvo_redmag_ammo_65x39">
             <English>6.5x39mm Round</English>
-            <Russian>6.5x39мм патрон</Russian>
+            <Russian>6,5x39мм патрон</Russian>
             <German>6,5x39mm Patrone</German>
         </Key>
         <Key ID="STR_cvo_redmag_ammo_65x39_desc">
             <English>A loose 6.5x39mm round. Can be used to repack magazines.</English>
-            <Russian>6.5x39мм патрон. Используется для снаряжения магазинов.</Russian>
+            <Russian>6,5x39мм патрон. Используется для снаряжения магазинов.</Russian>
             <German>Eine lose 6,5x39mm Patrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
         </Key>
         <Key ID="STR_cvo_redmag_ammo_65x39_tracer">
             <English>6.5x39mm Tracer Round</English>
-            <Russian>6.5x39мм патрон трассирующий</Russian>
+            <Russian>6,5x39мм патрон трассирующий</Russian>
             <German>6,5x39mm Leuchtspurpatrone</German>
         </Key>
         <Key ID="STR_cvo_redmag_ammo_65x39_tracer_desc">
             <English>A loose 6.5x39mm tracer round. Can be used to repack magazines.</English>
-            <Russian>6.5x39мм патрон трассирующий. Используется для снаряжения магазинов.</Russian>
+            <Russian>6,5x39мм патрон трассирующий. Используется для снаряжения магазинов.</Russian>
             <German>Eine lose 6,5x39mm Leuchtspurpatrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_762x39">
+            <English>7.62x39mm Round</English>
+            <Russian>7,62x39мм патрон</Russian>
+            <German>7,62x39mm Patrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_762x39_desc">
+            <English>A loose 7.62x39mm round. Can be used to repack magazines.</English>
+            <Russian>7,62x39мм патрон. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose 7,62x39mm Patrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_762x39_tracer">
+            <English>7.62x39mm Tracer Round</English>
+            <Russian>7,62x39мм патрон трассирующий</Russian>
+            <German>7,62x39mm Leuchtspurpatrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_762x39_tracer_desc">
+            <English>A loose 7.62x39mm tracer round. Can be used to repack magazines.</English>
+            <Russian>7,62x39мм патрон трассирующий. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose 7,62x39mm Leuchtspurpatrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_762x51">
+            <English>7.62x51mm Round</English>
+            <Russian>7,62x51мм патрон</Russian>
+            <German>7,62x51mm Patrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_762x51_desc">
+            <English>A loose 7.62x51mm round. Can be used to repack magazines.</English>
+            <Russian>7,62x51мм патрон. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose 7,62x51mm Patrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_762x51_tracer">
+            <English>7.62x51mm Tracer Round</English>
+            <Russian>7,62x51мм патрон трассирующий</Russian>
+            <German>7,62x51mm Leuchtspurpatrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_762x51_tracer_desc">
+            <English>A loose 7.62x51mm tracer round. Can be used to repack magazines.</English>
+            <Russian>7,62x51мм патрон трассирующий. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose 7,62x51mm Leuchtspurpatrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_762x54">
+            <English>7.62x54mmR Round</English>
+            <Russian>7,62x54мм R патрон</Russian>
+            <German>7,62x54mmR Patrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_762x54_desc">
+            <English>A loose 7.62x54mmR round. Can be used to repack magazines.</English>
+            <Russian>7,62x54мм R патрон. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose 7,62x54mmR Patrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_762x54_tracer">
+            <English>7.62x54mmR Tracer Round</English>
+            <Russian>7,62x54мм R патрон трассирующий</Russian>
+            <German>7,62x54mmR Leuchtspurpatrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_762x54_tracer_desc">
+            <English>A loose 7.62x54mmR tracer round. Can be used to repack magazines.</English>
+            <Russian>7,62x54мм R патрон трассирующий. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose 7,62x54mmR Leuchtspurpatrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_9x19">
+            <English>9x19mm Round</English>
+            <Russian>9x19мм патрон</Russian>
+            <German>9x19mm Patrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_9x19_desc">
+            <English>A loose 9x19mm round. Can be used to repack magazines.</English>
+            <Russian>9x19мм патрон. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose 9x19mm Patrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_9x19_tracer">
+            <English>9x19mm Tracer Round</English>
+            <Russian>9x19мм патрон трассирующий</Russian>
+            <German>9x19mm Leuchtspurpatrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_9x19_tracer_desc">
+            <English>A loose 9x19mm tracer round. Can be used to repack magazines.</English>
+            <Russian>9x19мм патрон трассирующий. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose 9x19mm Leuchtspurpatrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_9x21">
+            <English>9x21mm Round</English>
+            <Russian>9x21мм патрон</Russian>
+            <German>9x21mm Patrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_9x21_desc">
+            <English>A loose 9x21mm round. Can be used to repack magazines.</English>
+            <Russian>9x21мм патрон. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose 9x21mm Patrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_9x21_tracer">
+            <English>9x21mm Tracer Round</English>
+            <Russian>9x21мм патрон трассирующий</Russian>
+            <German>9x21mm Leuchtspurpatrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_9x21_tracer_desc">
+            <English>A loose 9x21mm tracer round. Can be used to repack magazines.</English>
+            <Russian>9x21мм патрон трассирующий. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose 9x21mm Leuchtspurpatrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_93x64">
+            <English>9.3x64mm Round</English>
+            <Russian>9,3x64мм патрон</Russian>
+            <German>9,3x64mm Patrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_93x64_desc">
+            <English>A loose 9.3x64mm round. Can be used to repack magazines.</English>
+            <Russian>9,3x64мм патрон. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose 9,3x64mm Patrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_93x64_tracer">
+            <English>9.3x64mm Tracer Round</English>
+            <Russian>9,3x64мм патрон трассирующий</Russian>
+            <German>9,3x64mm Leuchtspurpatrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_93x64_tracer_desc">
+            <English>A loose 9.3x64mm tracer round. Can be used to repack magazines.</English>
+            <Russian>9,3x64мм патрон трассирующий. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose 9,3x64mm Leuchtspurpatrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_127x54">
+            <English>12.7x54mm Round</English>
+            <Russian>12,7x54мм патрон</Russian>
+            <German>12,7x54mm Patrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_127x54_desc">
+            <English>A loose 12.7x54mm round. Can be used to repack magazines.</English>
+            <Russian>12,7x54мм патрон. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose 12,7x54mm Patrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_127x54_tracer">
+            <English>12.7x54mm Tracer Round</English>
+            <Russian>12,7x54мм патрон трассирующий</Russian>
+            <German>12,7x54mm Leuchtspurpatrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_127x54_tracer_desc">
+            <English>A loose 12.7x54mm tracer round. Can be used to repack magazines.</English>
+            <Russian>12,7x54мм патрон трассирующий. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose 12,7x54mm Leuchtspurpatrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_127x99">
+            <English>12.7x99mm Round</English>
+            <Russian>12,7x99мм патрон</Russian>
+            <German>12,7x99mm Patrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_127x99_desc">
+            <English>A loose 12.7x99mm round. Can be used to repack magazines.</English>
+            <Russian>12,7x99мм патрон. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose 12,7x99mm Patrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_127x99_tracer">
+            <English>12.7x99mm Tracer Round</English>
+            <Russian>12,7x99мм патрон трассирующий</Russian>
+            <German>12,7x99mm Leuchtspurpatrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_127x99_tracer_desc">
+            <English>A loose 12.7x99mm tracer round. Can be used to repack magazines.</English>
+            <Russian>12,7x99мм патрон трассирующий. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose 12,7x99mm Leuchtspurpatrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_127x108">
+            <English>12.7x108mm Round</English>
+            <Russian>12,7x108мм патрон</Russian>
+            <German>12,7x108mm Patrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_127x108_desc">
+            <English>A loose 12.7x108mm round. Can be used to repack magazines.</English>
+            <Russian>12,7x108мм патрон. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose 12,7x108mm Patrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_127x108_tracer">
+            <English>12.7x108mm Tracer Round</English>
+            <Russian>12,7x108мм патрон трассирующий</Russian>
+            <German>12,7x108mm Leuchtspurpatrone</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_ammo_127x108_tracer_desc">
+            <English>A loose 12.7x108mm tracer round. Can be used to repack magazines.</English>
+            <Russian>12,7x108мм патрон трассирующий. Используется для снаряжения магазинов.</Russian>
+            <German>Eine lose 12,7x108mm Leuchtspurpatrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
         </Key>
     </Package>
 </Project>
