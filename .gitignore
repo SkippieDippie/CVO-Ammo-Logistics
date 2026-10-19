@@ -3,8 +3,7 @@
 **/keys/
 **/releases/
 *.pbo
-*.
-.hemttprivatekey
-.biprivatekey
+*.hemttprivatekey
+*.biprivatekey
 hemtt
 hemtt.exe
