@@ -59,8 +59,19 @@ private _unloadAction = [
     [true]
 ] call ace_interact_menu_fnc_createAction;
 
+private _convertAction = [
+    QGVAR(convert),
+    localize LSTRING(convert),
+    QPATHTOF(data\icon_repack_ca.paa), // placeholder
+    {},
+    {PVAR(convertMode) in [SET_CONVERT_REPACK, SET_CONVERT_BOTH]},
+    FUNC(getConvertActions)
+] call ace_interact_menu_fnc_createAction;
+
+
 ["CAManBase", 1, ["ACE_SelfActions", QGVAR(repackMagazines)], _refillAction, true] call ace_interact_menu_fnc_addActionToClass;
 ["CAManBase", 1, ["ACE_SelfActions", QGVAR(repackMagazines)], _unloadAction, true] call ace_interact_menu_fnc_addActionToClass;
+["CAManBase", 1, ["ACE_SelfActions", QGVAR(repackMagazines)], _convertAction, true] call ace_interact_menu_fnc_addActionToClass;
 
 
 // Add event handlers and handle player unit being changed mid game (by respawning or using selectPlayer command)

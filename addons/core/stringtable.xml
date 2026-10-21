@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="CVO Ammo Logistics">
     <Package name="Actions">
+        <Key ID="STR_cvo_redmag_core_convert">
+            <English>Convert</English>
+            <Russian>Преобразовать</Russian>
+        </Key>
+        <Key ID="STR_cvo_redmag_core_convertMode">
+            <English>Magazine conversion menu</English>
+            <Russian>Меню преобразования магазинов</Russian>
+        </Key>
+        <Key ID="STR_cvo_redmag_core_convertMode_both">
+            <English>Both</English>
+            <Russian>Оба варианта</Russian>
+        </Key>
+        <Key ID="STR_cvo_redmag_core_convertMode_menu">
+            <English>Own menu</English>
+            <Russian>Отдельное меню</Russian>
+        </Key>
+        <Key ID="STR_cvo_redmag_core_convertMode_refill">
+            <English>Under refilling an empty magazine</English>
+            <Russian>В меню снаряжения пустого магазина</Russian>
+        </Key>
+        <Key ID="STR_cvo_redmag_core_convertMode_tooltip">
+            <English>Where converting an empty magazine into another type is offered.</English>
+            <Russian>Где предлагается преобразование пустого магазина в другой тип.</Russian>
+        </Key>
         <Key ID="STR_cvo_redmag_core_refill">
             <English>Refill</English>
             <Russian>Снарядить</Russian>
             <German>Nachfüllen</German>
+        </Key>
+        <Key ID="STR_cvo_redmag_core_reloadAs">
+            <English>as %1</English>
+            <Russian>как %1</Russian>
         </Key>
         <Key ID="STR_cvo_redmag_core_repackMagazines">
             <English>Repack magazines</English>
