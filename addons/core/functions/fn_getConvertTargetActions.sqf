@@ -29,7 +29,7 @@ private _actions = [];
 
     private _text = _toData get "displayName";
     if (_inRefillMenu) then {
-        _text = format [localize LSTRING(convertTo), _text];
+        _text = format [localize LSTRING(reloadAs), _text];
     };
 
     private _action = [
