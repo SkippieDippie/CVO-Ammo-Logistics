@@ -4,6 +4,8 @@
  * Builds the child actions of the "Refill" and "Unload" submenus.
  * One entry per distinct magazine (class + ammo count).
  * Refill lists every magazine that is not full, unload lists every magazine that holds rounds.
+ * Depending on the conversion setting, an empty magazine in the Refill list gets the conversion
+ * targets as children. Selecting the entry itself still starts the regular refill.
  *
  * Arguments:
  * 0: Target <OBJECT>
@@ -21,7 +23,6 @@ params ["_target", "_player", ["_params", []]];
 _params params [["_unload", false, [false]]];
 
 private _mags = if (_unload) then {
-    // Every repackable magazine that still holds rounds, full ones included
     ([_player] call FUNC(getInventoryMagazines)) select {
         _x params ["_class", "_count"];
         _count > 0 && {(([_class] call FUNC(getMagazineData)) get "isRepackable")}
@@ -50,6 +51,8 @@ private _actions = [];
         _text = format ["%1 x%2", _text, _amount];
     };
 
+    private _hasConvert = !_unload && {_count == 0} && {PVAR(convertMode) in [SET_CONVERT_REFILL, SET_CONVERT_BOTH]} && {count ([_class] call FUNC(getConvertTargets)) > 0};
+
     private _action = [
         format ["%1_%2_%3_%4", QGVAR(repack), _unload, _class, _count],
         _text,
@@ -60,7 +63,7 @@ private _actions = [];
             [_class, _count, _unload, _player] call FUNC(repackMagazine);
         },
         {true},
-        {},
+        [{}, FUNC(getEmptyMagazineActions)] select _hasConvert,
         [_class, _count, _unload],
         "",
         2,

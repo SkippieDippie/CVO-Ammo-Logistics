@@ -64,7 +64,7 @@ private _convertAction = [
     localize LSTRING(convert),
     QPATHTOF(data\icon_repack_ca.paa), // placeholder
     {},
-    {true},
+    {PVAR(convertMode) in [SET_CONVERT_REPACK, SET_CONVERT_BOTH]},
     FUNC(getConvertActions)
 ] call ace_interact_menu_fnc_createAction;
 

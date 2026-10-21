@@ -7,6 +7,7 @@ class CfgFunctions {
             class getConvertActions {};
             class getConvertTargetActions {};
             class getConvertTargets {};
+            class getEmptyMagazineActions {};
             class getInventoryMagazines {};
             class getMagazineData {};
             class getPartialMagazines {};
