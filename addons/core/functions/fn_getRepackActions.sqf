@@ -25,7 +25,8 @@ _params params [["_unload", false, [false]]];
 private _mags = if (_unload) then {
     ([_player] call FUNC(getInventoryMagazines)) select {
         _x params ["_class", "_count"];
-        _count > 0 && {(([_class] call FUNC(getMagazineData)) get "isRepackable")}
+        private _magData = [_class] call FUNC(getMagazineData);
+        _count > 0 && {_magData get "isRepackable"} && {(_magData get "ammoBasic") != ""}
     } apply {
         _x params ["_class", "_count"];
            [_class, _count, ([_class] call FUNC(getMagazineData)) get "count"];
@@ -51,7 +52,9 @@ private _actions = [];
         _text = format ["%1 x%2", _text, _amount];
     };
 
-    private _hasConvert = !_unload && {_count == 0} && {PVAR(convertMode) in [SET_CONVERT_REFILL, SET_CONVERT_BOTH]} && {count ([_class] call FUNC(getConvertTargets)) > 0};
+    private _hasConvert =   !_unload && {_count == 0} && 
+                            {PVAR(convertMode) in [SET_CONVERT_REFILL, SET_CONVERT_BOTH]} && 
+                            {count ([_class] call FUNC(getConvertTargets)) > 0};
 
     private _action = [
         format ["%1_%2_%3_%4", QGVAR(repack), _unload, _class, _count],
@@ -72,10 +75,9 @@ private _actions = [];
             params ["_target", "_player", "_params", "_actionData"];
             _params params ["_class", "", "_unload"];
 
-            // Unloading needs no ammo items, only refilling does
             if (_unload) exitWith {};
 
-            private _item = (([_class] call FUNC(getMagazineData)) get "ammoItem");
+            private _item = (([_class] call FUNC(getMagazineData)) get "ammoBasic");
             if !(_item in items _player) then {
                 _actionData set [2, [
                     ([_class] call FUNC(getMagazineData)) get "picture",

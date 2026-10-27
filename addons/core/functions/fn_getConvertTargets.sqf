@@ -2,7 +2,7 @@
 /*
  * Author: 24th Chorni Voron
  * Returns the magazine classes an empty magazine can be converted into.
- * Reads the convertMag array of the magazine's data class, leaving out the
+ * Reads the magazines array of the magazine's data class, leaving out the
  * magazine itself and any class that does not exist in the loaded config.
  *
  * Arguments:
@@ -19,6 +19,7 @@
 
 params [["_magClass", "", [""]]];
 
-(([_magClass] call FUNC(getMagazineData)) get "convertMag") select {
-    _x != _magClass && {isClass (configFile >> "CfgMagazines" >> _x)}
+// magazines[] entries are [magazine classname, ammo classname]
+((([_magClass] call FUNC(getMagazineData)) get "magazines") apply {_x param [0, ""]}) select {
+    _x != "" && {_x != _magClass} && {isClass (configFile >> "CfgMagazines" >> _x)}
 }
