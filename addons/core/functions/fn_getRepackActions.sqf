@@ -75,7 +75,7 @@ private _actions = [];
             // Unloading needs no ammo items, only refilling does
             if (_unload) exitWith {};
 
-            private _item = (([_class] call FUNC(getMagazineData)) get "ammoItem");
+            private _item = (([_class] call FUNC(getMagazineData)) get "ammoBasic");
             if !(_item in items _player) then {
                 _actionData set [2, [
                     ([_class] call FUNC(getMagazineData)) get "picture",

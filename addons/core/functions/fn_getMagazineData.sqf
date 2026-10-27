@@ -10,10 +10,10 @@
  * Magazine data <HASHMAP>
  * Keys:
  * "ammoDataClass"         <STRING> - CVO_Magazines class that was resolved
- * "ammoItem"              <STRING> - ammo item classname
- * "ammoItemTracer"        <STRING> - tracer ammo item classname
- * "ammoItemQuickLoader"   <STRING> - quickloader ammo item classname
- * "convertMag"            <ARRAY of STRING> - classnames the empty magazine can be converted into
+ * "ammoBasic"             <STRING> - ammo ammoBasic classname
+ * "ammoTracer"            <STRING> - tracer ammo ammoBasic classname
+ * "quickloader"           <STRING> - quickloader ammo ammoBasic classname
+ * "magazines"             <ARRAY of STRING> - classnames the empty magazine can be converted into
  * "count"                 <NUMBER> - maximum ammo count of the magazine
  * "isRepackable"          <BOOL> - is magazine repackable
  * "picture"               <STRING> - magazine's picture
@@ -29,8 +29,8 @@ params [["_magClass", "", [""]]];
 
 if (_magClass == "") exitWith {
       createHashMapFromArray [
-         ["ammoDataClass", ""], ["ammoItem", ""], ["ammoItemTracer", ""], ["ammoItemQuickLoader", ""],
-         ["convertMag", []], ["displayName", ""], ["count", 0], ["isRepackable", false], ["picture", ""],
+         ["ammoDataClass", ""], ["ammoBasic", ""], ["ammoTracer", ""], ["quickloader", ""],
+         ["magazines", []], ["displayName", ""], ["count", 0], ["isRepackable", false], ["picture", ""],
          ["useBelt", false]
       ]
 };
@@ -59,15 +59,15 @@ if (isNil "_magData") then {
 
    _magData = createHashMapFromArray [
       ["ammoDataClass", configName _ammoConfig],
-      ["ammoItem", getText (_ammoConfig >> "item")],
-      ["ammoItemTracer", getText (_ammoConfig >> "itemTracer")],
-      ["ammoItemQuickLoader", getText (_ammoConfig >> "itemQuickLoader")],
-      ["convertMag", getArray (_ammoConfig >> "convertMag")],
+      ["ammoBasic", getText (_ammoConfig >> "ammoBasic")],
+      ["ammoTracer", getText (_ammoConfig >> "ammoTracer")],
+      ["quickloader", getText (_ammoConfig >> "quickloader")],
+      ["magazines", getArray (_ammoConfig >> "magazines")],
+      ["useBelt", ((getNumber (_ammoConfig >> "useBelt")) == 1)],
+      ["isRepackable", _isRepackable],
       ["count", getNumber (configFile >> "CfgMagazines" >> _magClass >> "count")],
       ["displayName", getText (configFile >> "CfgMagazines" >> _magClass >> "displayName")],
-      ["isRepackable", _isRepackable],
-      ["picture",getText (configFile >> "CfgMagazines" >> _magClass >> "picture")],
-      ["useBelt", ((getNumber (_ammoConfig >> "useBelt")) == 1)]
+      ["picture",getText (configFile >> "CfgMagazines" >> _magClass >> "picture")]
    ];
 
    GVAR(magazineCache) set [_magClass, _magData];
