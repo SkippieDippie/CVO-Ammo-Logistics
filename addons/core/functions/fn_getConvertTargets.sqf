@@ -3,6 +3,7 @@
  * Author: 24th Chorni Voron
  * Returns the magazine classes an empty magazine can be converted into.
  * Reads the magazines array of the magazine's data class, leaving out the
+ * Reads the magazines array of the magazine's data class, leaving out the
  * magazine itself and any class that does not exist in the loaded config.
  *
  * Arguments:
