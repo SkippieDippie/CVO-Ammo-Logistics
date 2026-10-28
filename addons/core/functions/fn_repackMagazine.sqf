@@ -36,7 +36,7 @@ private _timePerRound = PVAR(timePerRound);
 private _magData = [_magClass] call FUNC(getMagazineData);
 
 private _maxCount = _magData get "count";
-private _ammoClass = _magData get "ammoItem";
+private _ammoClass = _magData get "ammoBasic";
 
 if (_maxCount <= 0 || {!(_magData get "isRepackable")}) exitWith {
     [localize LSTRING(invalidMagazine)] call CBA_fnc_notify;

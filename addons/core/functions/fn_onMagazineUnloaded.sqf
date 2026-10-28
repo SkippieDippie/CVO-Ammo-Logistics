@@ -15,8 +15,9 @@ if (_magazine isEqualTo []) exitWith {};
 
 _magazine params ["_magClass", "_ammoCount"];
 
-// Only handle empty magazines
 if (_ammoCount > 0) exitWith {};
+
+if !(([_magClass] call FUNC(getMagazineData)) get "isRepackable") exitWith {};
 
 [_unit, _magClass] call FUNC(removeVanillaEmptyMagazine);
 

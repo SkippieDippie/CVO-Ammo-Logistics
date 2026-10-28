@@ -2,7 +2,7 @@
 /*
  * Author: 24th Chorni Voron
  * Converts one empty magazine into an empty magazine of another class.
- * The target must be listed in the convertMag array of the source magazine's data class.
+ * The target must be listed in the magazines array of the source magazine's data class.
  * Instant and free. If the unit has no room for the new magazine, it is placed on the ground.
  *
  * Arguments:

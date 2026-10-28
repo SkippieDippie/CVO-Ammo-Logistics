@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="CVO Ammo Logistics">
     <Package name="Ammo">
-        <Key ID="STR_cvo_redmag_ammo_basic">
+        <Key ID="STR_cvo_redmag_ammo_default">
             <English>Loose Round</English>
             <Russian>Патрон</Russian>
             <German>Lose Patrone</German>
         </Key>
-        <Key ID="STR_cvo_redmag_ammo_basic_desc">
+        <Key ID="STR_cvo_redmag_ammo_default_desc">
             <English>A loose round. Can be used to repack magazines.</English>
             <Russian>Отдельный патрон. Используется для снаряжения магазинов.</Russian>
             <German>Eine lose Patrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
         </Key>
-        <Key ID="STR_cvo_redmag_ammo_basic_tracer">
+        <Key ID="STR_cvo_redmag_ammo_default_tracer">
             <English>Loose Tracer Round</English>
             <Russian>Патрон трассирующий</Russian>
             <German>Lose Leuchtspurpatrone</German>
         </Key>
-        <Key ID="STR_cvo_redmag_ammo_basic_tracer_desc">
+        <Key ID="STR_cvo_redmag_ammo_default_tracer_desc">
             <English>A loose tracer round. Can be used to repack magazines.</English>
             <Russian>Отдельный трассирующий патрон. Используется для снаряжения магазинов.</Russian>
             <German>Eine lose Leuchtspurpatrone. Kann zum Umpacken von Magazinen verwendet werden.</German>
