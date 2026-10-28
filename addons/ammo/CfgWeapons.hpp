@@ -9,7 +9,6 @@ class CfgWeapons {
         descriptionShort = CSTRING(default_desc);
         picture = QPATHTOF(data\ammo_ca.paa);
         ACE_asItem = 1;
-        ACE_asItem = 1;
 
         class ItemInfo: CBA_MiscItem_ItemInfo {
             mass = 0.73;
@@ -89,7 +88,6 @@ class CfgWeapons {
     };
 
     class GVAR(ammo_300WM_tracer): GVAR(ammo_300WM) {
-    class GVAR(ammo_300WM_tracer): GVAR(ammo_300WM) {
         displayName = CSTRING(300WM_tracer);
         descriptionShort = CSTRING(300WM_tracer_desc);
         picture = QPATHTOF(data\ammo_ca.paa);
@@ -105,7 +103,6 @@ class CfgWeapons {
         };
     };
 
-    class GVAR(ammo_338LM_tracer): GVAR(ammo_338LM) {
     class GVAR(ammo_338LM_tracer): GVAR(ammo_338LM) {
         displayName = CSTRING(338LM_tracer);
         descriptionShort = CSTRING(338LM_tracer_desc);
@@ -123,7 +120,6 @@ class CfgWeapons {
     };
 
     class GVAR(ammo_338NM_tracer): GVAR(ammo_338NM) {
-    class GVAR(ammo_338NM_tracer): GVAR(ammo_338NM) {
         displayName = CSTRING(338NM_tracer);
         descriptionShort = CSTRING(338NM_tracer_desc);
         picture = QPATHTOF(data\ammo_ca.paa);
@@ -139,7 +135,6 @@ class CfgWeapons {
         };
     };
 
-    class GVAR(ammo_408_tracer): GVAR(ammo_408) {
     class GVAR(ammo_408_tracer): GVAR(ammo_408) {
         displayName = CSTRING(408_tracer);
         descriptionShort = CSTRING(408_tracer_desc);
@@ -157,7 +152,6 @@ class CfgWeapons {
     };
 
     class GVAR(ammo_45ACP_tracer): GVAR(ammo_45ACP) {
-    class GVAR(ammo_45ACP_tracer): GVAR(ammo_45ACP) {
         displayName = CSTRING(45ACP_tracer);
         descriptionShort = CSTRING(45ACP_tracer_desc);
         picture = QPATHTOF(data\ammo_ca.paa);
@@ -173,7 +167,6 @@ class CfgWeapons {
         };
     };
 
-    class GVAR(ammo_50BW_tracer): GVAR(ammo_50BW) {
     class GVAR(ammo_50BW_tracer): GVAR(ammo_50BW) {
         displayName = CSTRING(50BW_tracer);
         descriptionShort = CSTRING(50BW_tracer_desc);
@@ -191,7 +184,6 @@ class CfgWeapons {
     };
 
     class GVAR(ammo_545x39_tracer): GVAR(ammo_545x39) {
-    class GVAR(ammo_545x39_tracer): GVAR(ammo_545x39) {
         displayName = CSTRING(545x39_tracer);
         descriptionShort = CSTRING(545x39_tracer_desc);
         picture = QPATHTOF(data\ammo_ca.paa);
@@ -207,7 +199,6 @@ class CfgWeapons {
         };
     };
 
-    class GVAR(ammo_556x45_tracer): GVAR(ammo_556x45) {
     class GVAR(ammo_556x45_tracer): GVAR(ammo_556x45) {
         displayName = CSTRING(556x45_tracer);
         descriptionShort = CSTRING(556x45_tracer_desc);
@@ -225,7 +216,6 @@ class CfgWeapons {
     };
 
     class GVAR(ammo_57x28_tracer): GVAR(ammo_57x28) {
-    class GVAR(ammo_57x28_tracer): GVAR(ammo_57x28) {
         displayName = CSTRING(57x28_tracer);
         descriptionShort = CSTRING(57x28_tracer_desc);
         picture = QPATHTOF(data\ammo_ca.paa);
@@ -241,7 +231,6 @@ class CfgWeapons {
         };
     };
 
-    class GVAR(ammo_58x42_tracer): GVAR(ammo_58x42) {
     class GVAR(ammo_58x42_tracer): GVAR(ammo_58x42) {
         displayName = CSTRING(58x42_tracer);
         descriptionShort = CSTRING(58x42_tracer_desc);
@@ -259,7 +248,6 @@ class CfgWeapons {
     };
 
     class GVAR(ammo_65x39_tracer): GVAR(ammo_65x39) {
-    class GVAR(ammo_65x39_tracer): GVAR(ammo_65x39) {
         displayName = CSTRING(65x39_tracer);
         descriptionShort = CSTRING(65x39_tracer_desc);
         picture = QPATHTOF(data\ammo_ca.paa);
@@ -275,7 +263,6 @@ class CfgWeapons {
         };
     };
 
-    class GVAR(ammo_762x39_tracer): GVAR(ammo_762x39) {
     class GVAR(ammo_762x39_tracer): GVAR(ammo_762x39) {
         displayName = CSTRING(762x39_tracer);
         descriptionShort = CSTRING(762x39_tracer_desc);
@@ -293,7 +280,6 @@ class CfgWeapons {
     };
 
     class GVAR(ammo_762x51_tracer): GVAR(ammo_762x51) {
-    class GVAR(ammo_762x51_tracer): GVAR(ammo_762x51) {
         displayName = CSTRING(762x51_tracer);
         descriptionShort = CSTRING(762x51_tracer_desc);
         picture = QPATHTOF(data\ammo_ca.paa);
@@ -309,7 +295,6 @@ class CfgWeapons {
         };
     };
 
-    class GVAR(ammo_762x54_tracer): GVAR(ammo_762x54) {
     class GVAR(ammo_762x54_tracer): GVAR(ammo_762x54) {
         displayName = CSTRING(762x54_tracer);
         descriptionShort = CSTRING(762x54_tracer_desc);
@@ -327,7 +312,6 @@ class CfgWeapons {
     };
 
     class GVAR(ammo_9x19_tracer): GVAR(ammo_9x19) {
-    class GVAR(ammo_9x19_tracer): GVAR(ammo_9x19) {
         displayName = CSTRING(9x19_tracer);
         descriptionShort = CSTRING(9x19_tracer_desc);
         picture = QPATHTOF(data\ammo_ca.paa);
@@ -343,7 +327,6 @@ class CfgWeapons {
         };
     };
 
-    class GVAR(ammo_9x21_tracer): GVAR(ammo_9x21) {
     class GVAR(ammo_9x21_tracer): GVAR(ammo_9x21) {
         displayName = CSTRING(9x21_tracer);
         descriptionShort = CSTRING(9x21_tracer_desc);
@@ -361,7 +344,6 @@ class CfgWeapons {
     };
 
     class GVAR(ammo_93x64_tracer): GVAR(ammo_93x64) {
-    class GVAR(ammo_93x64_tracer): GVAR(ammo_93x64) {
         displayName = CSTRING(93x64_tracer);
         descriptionShort = CSTRING(93x64_tracer_desc);
         picture = QPATHTOF(data\ammo_ca.paa);
@@ -377,7 +359,6 @@ class CfgWeapons {
         };
     };
 
-    class GVAR(ammo_127x54_tracer): GVAR(ammo_127x54) {
     class GVAR(ammo_127x54_tracer): GVAR(ammo_127x54) {
         displayName = CSTRING(127x54_tracer);
         descriptionShort = CSTRING(127x54_tracer_desc);
@@ -395,7 +376,6 @@ class CfgWeapons {
     };
 
     class GVAR(ammo_127x99_tracer): GVAR(ammo_127x99) {
-    class GVAR(ammo_127x99_tracer): GVAR(ammo_127x99) {
         displayName = CSTRING(127x99_tracer);
         descriptionShort = CSTRING(127x99_tracer_desc);
         picture = QPATHTOF(data\ammo_ca.paa);
@@ -411,7 +391,6 @@ class CfgWeapons {
         };
     };
 
-    class GVAR(ammo_127x108_tracer): GVAR(ammo_127x108) {
     class GVAR(ammo_127x108_tracer): GVAR(ammo_127x108) {
         displayName = CSTRING(127x108_tracer);
         descriptionShort = CSTRING(127x108_tracer_desc);
